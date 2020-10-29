@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 0,
+			"minor" : 1,
 			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 59.0, 81.0, 640.0, 480.0 ],
+		"rect" : [ 59.0, 81.0, 364.0, 310.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -38,6 +38,17 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-17",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 51.0, 25.0, 201.0, 20.0 ],
+					"text" : "toggle visibility in presentation mode"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -140,8 +151,10 @@
 					"maxclass" : "jit.pwindow",
 					"numinlets" : 1,
 					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 20.0, 190.0, 80.0, 60.0 ]
+					"outlettype" : [ "jit_matrix", "" ],
+					"patching_rect" : [ 20.0, 190.0, 80.0, 60.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 20.0, 190.0, 80.0, 60.0 ]
 				}
 
 			}
@@ -169,8 +182,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 20.0, 60.0, 84.0, 20.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 20.0, 60.0, 84.0, 20.0 ],
 					"text" : "presentation $1"
 				}
 
@@ -241,7 +252,9 @@
 				}
 
 			}
- ]
+ ],
+		"dependency_cache" : [  ],
+		"autosave" : 0
 	}
 
 }
