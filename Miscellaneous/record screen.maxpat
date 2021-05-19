@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 0,
-			"revision" : 1,
+			"minor" : 1,
+			"revision" : 10,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 59.0, 104.0, 640.0, 480.0 ],
+		"rect" : [ 59.0, 104.0, 386.0, 317.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -37,6 +37,7 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "",
+		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"fontname" : "Arial",
@@ -120,8 +121,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 0,
-							"revision" : 1,
+							"minor" : 1,
+							"revision" : 10,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -154,6 +155,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -342,7 +344,7 @@
 									"fontsize" : 11.595186999999999,
 									"id" : "obj-26",
 									"maxclass" : "number",
-									"maximum" : 2560,
+									"maximum" : 2048,
 									"minimum" : 320,
 									"numinlets" : 1,
 									"numoutlets" : 2,
@@ -359,7 +361,7 @@
 									"fontsize" : 11.595186999999999,
 									"id" : "obj-27",
 									"maxclass" : "number",
-									"maximum" : 1440,
+									"maximum" : 1152,
 									"minimum" : 240,
 									"numinlets" : 1,
 									"numoutlets" : 2,
@@ -376,7 +378,7 @@
 									"fontsize" : 11.595186999999999,
 									"id" : "obj-24",
 									"maxclass" : "number",
-									"maximum" : 2240,
+									"maximum" : 1728,
 									"minimum" : 0,
 									"numinlets" : 1,
 									"numoutlets" : 2,
@@ -393,7 +395,7 @@
 									"fontsize" : 11.595186999999999,
 									"id" : "obj-25",
 									"maxclass" : "number",
-									"maximum" : 1200,
+									"maximum" : 912,
 									"minimum" : 0,
 									"numinlets" : 1,
 									"numoutlets" : 2,
@@ -1263,7 +1265,7 @@
 					"maxclass" : "jit.pwindow",
 					"numinlets" : 1,
 					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
+					"outlettype" : [ "jit_matrix", "" ],
 					"patching_rect" : [ 389.0, 420.0, 183.0, 141.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 29.0, 121.0, 183.0, 141.0 ]
